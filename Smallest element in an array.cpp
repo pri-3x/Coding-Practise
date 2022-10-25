@@ -14,8 +14,9 @@ int main(){
     /*for(i=0;i<n;i++){
         cout<<a[i]<< " ";
     }*/
-    int smallest=a[0];
+    int smallest;
     for(int i=0;i<n;i++){
+        smallest=a[0];
         if(a[i]<a[0])
         a[i]=smallest;
     }
