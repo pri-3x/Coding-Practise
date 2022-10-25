@@ -14,8 +14,9 @@ int main(){
     /*for(i=0;i<n;i++){
         cout<<a[i]<< " ";
     }*/
-    int largest=a[0];
+    int largest;
     for(int i=0;i<n;i++){
+        largest=a[0];
         if(a[i]>a[0])
         a[i]=largest;
     }
